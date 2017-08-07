@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
 	"github.com/opencontainers/specs"
+	"github.com/sirupsen/logrus"
 )
 
 var execCommand = cli.Command{
